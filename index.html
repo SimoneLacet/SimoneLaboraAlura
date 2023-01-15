@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Projeto - Criptografa-Descriptografa Texto</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	    <header>
+			<div class="caixa">
+				 <img  src="detetive.png">
+				 <h1 class="titulo-principal">Criptogra e Discriptografa Texto</h1>
+			</div>
+		</header>
+		<main>
+			<form>
+				<label for="mensagem" class="texto">Digite seu texto abaixo:</label>
+				<textarea cols="50" rows="10" id="mensagem" class="input-padrao"></textarea>
+				<p class="atencao">Digite o texto com letra minúscula.</p>
+				<div class="botao">
+					<input type="button" value="Criptografar" id="criptografar" class="criptografar">
+					<input type="button" value="Descriptografar" id="descriptografar" class="descriptografar">
+					<input type="button" value="Colar" id="colar" class="colar">
+				</div>
+			</form>
+		</main>
+		<div class="resultadosaida">
+			<h2 class="titulo-saida">Resultado</h2>
+			<div class="imprime">
+				<p id="resultado" class="saida"></p>
+			</div>
+			<input type="button" value="Copiar" id="copiar" class="copiar">
+		</div>
+		<footer>
+			<p>Labora/Alura Simone Gomes Lacet</p>
+		</footer>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

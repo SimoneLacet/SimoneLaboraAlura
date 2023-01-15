@@ -1,0 +1,175 @@
+header {
+	background:  #CCCCCC;
+	padding: 20px 0;
+	}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	display: inline-block;
+	margin: 0 0 0 15px;
+	}
+
+.titulo-principal {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+    top: 60px;
+    left: 200px;
+    }
+
+main{
+	background: #DCDCDC;
+	padding: 205px 0;
+}
+
+form {
+	margin: 10px 0;
+}
+
+
+.texto {
+	position: absolute;
+    display:inline-block;
+    margin: 0 0 0 150px;
+    font-size: 20px;
+    top: 190px;
+    font-weight: bold;
+}
+
+.input-padrao {
+	position: absolute;
+    display: inline-block;
+    margin: 0 0 0 150px;
+    padding: 10px 25px;
+    width: 40%;
+    top: 220px;
+    border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.atencao{
+	position: absolute;
+    display:inline-block;
+    margin: 0 0 0 150px;
+	top: 400px;
+	left:5px;
+}
+
+.criptografar {
+	position: absolute;
+    display: inline-block;
+	width:10%;
+	padding: 10px 0;
+	background: #878787;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	margin: 0 0 0 150px;
+	left: 320px;
+	top: 500px;
+	
+}
+
+.descriptografar {
+	position: absolute;
+    display: inline-block;
+	width:10%;
+	padding: 10px 0;
+	background: #878787;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	margin: 0 0 0 150px;
+	left: 150px;
+	top: 500px;
+
+
+}
+
+.colar{
+	position: absolute;
+    display: inline-block;
+	width:10%;
+	padding: 10px 0;
+	background: #878787;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	margin: 0 0 0 150px;
+	left: 420px;
+	top: 340px;
+}
+
+.titulo-saida{
+	position: absolute;
+    display: inline-block;
+    left: 970px;
+    font-size: 20px;
+    top: 190px;
+    font-weight: bold;
+
+}
+
+.saida{
+    position: absolute;
+    display: inline-block;
+    background: white;
+    margin: 0 0 0 15px;
+    padding: 10px 25px;
+    width: 20%;
+    top: 220px;
+    left: 950px;
+    height: 50%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: left;
+    word-break: break-all;
+}
+
+
+p {
+    text-align: center;
+}
+
+.copiar{
+	position: absolute;
+    display: inline-block;
+	width:10%;
+	padding: 10px 0;
+	background: #878787;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	margin: 0 0 0 150px;
+	left: 980px;
+	top: 500px;
+}
+
+footer {
+	background: #CCCCCC;
+	padding: 15px 0;
+}
+
+footer p {
+	text-align: right;
+	margin-right: 15px;
+}
+
